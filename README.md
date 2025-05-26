@@ -26,7 +26,7 @@ Image Upload	          Cloudinary API
 
 Getting Started
  1. Clone the repo
-     git clone https://github.com/your-username/image-gallery-app.git
+     git clone https://github.com/SSrivastava18/Image-Gallery-and-cloudinary-integration.git
      cd image-gallery-app
  2. Setup Environment Variables
      PORT=5000
