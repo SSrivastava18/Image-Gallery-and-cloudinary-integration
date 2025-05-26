@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+Image Gallery App:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  An interactive image gallery application built with the MERN stack (MongoDB, Express.js, React, Node.js) and integrated with Cloudinary for seamless image uploads and storage.
 
-## Available Scripts
 
-In the project directory, you can run:
+Features:
 
-### `npm start`
+  Drag & Drop image upload
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  Cloudinary integration for image storage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  Image preview with filename
 
-### `npm test`
+  Upload multiple files at once
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  Images stored and served via MongoDB & Express API
 
-### `npm run build`
+  Automatic gallery refresh on new upload
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  Filename includes timestamp for easy tracking
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Getting Started
 
-### `npm run eject`
+1. Clone the repo
+   
+    git clone https://github.com/your-username/image-gallery-app.git
+   
+    cd image-gallery-app
+   
+3. Setup Environment Variables
+   
+    PORT=As of your choice
+   
+    MONGO_URI=your_mongodb_connection_string
+   
+    CLOUDINARY_CLOUD_NAME=your_cloud_name
+   
+    CLOUDINARY_API_KEY=your_api_key
+   
+    CLOUDINARY_API_SECRET=your_api_secret
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install Dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   Backend:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+     cd server
+   
+     npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   Frontend:
 
-## Learn More
+     cd ../client
+   
+     npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Run the App
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   Start backend:
 
-### Code Splitting
+     cd server
+   
+     npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   Start frontend:
 
-### Analyzing the Bundle Size
+     cd ../client
+   
+     npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
