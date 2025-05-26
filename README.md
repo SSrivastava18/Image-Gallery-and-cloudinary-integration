@@ -32,33 +32,46 @@ Getting Started
  1. Clone the repo
     
      git clone https://github.com/SSrivastava18/Image-Gallery-and-cloudinary-integration.git
+    
      cd image-gallery-app
     
  3. Setup Environment Variables
     
      PORT=8000(//backend)
+    
      MONGO_URI=your_mongodb_connection_string
+    
      CLOUDINARY_CLOUD_NAME=your_cloud_name
+    
      CLOUDINARY_API_KEY=your_api_key
+    
      CLOUDINARY_API_SECRET=your_api_secret
     
 5. Install Dependencies
    
    Backend:
+   
      cd server
+   
      npm install
    Frontend:
+   
      cd ../client
+   
      npm install
    
 7. Run the App
    
 Start backend:
+
   cd server
+  
   npm start
   
 Start frontend:
+
   cd ../client
+  
   npm start
 
 
